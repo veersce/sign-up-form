@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-up {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+    flex: 0 0 35%;
+    flex-direction: column;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: 55% 0%;
+}
+
+.back-shadow {
+    display: flex;
+    background: rgba(245, 245, 245, 0.15);
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: whitesmoke;
+    flex-basis: 100px;
+    font-size: 1.25rem;
+}
+
+.logo {
+    width: 50px;
+}
+
+.pic-src {
+    margin-top: auto;
+    align-self: center;
+    color: whitesmoke;
+    font-size: 0.6rem;
+}
+
+.pic-src a {
+    color: whitesmoke;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.top-text {
+    margin: 10% 5%;
+    margin-right: 20%;
+    margin-bottom: 0;
+}
+
+.signup-form {
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+form {
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-fields {
+    display: flex;
+
+}
+
+.bottom {
+    margin-left: 5%;
+    margin-right: 20%;
+}
