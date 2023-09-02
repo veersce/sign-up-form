@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="sign-up">
         <div class="left">
             <div class="back-shadow">
-                <img class="logo" src="img/logo_tmp.png">
+                <img class="logo" src="img/logo.png">
                 <h1 class="company-name">JOOR</h1>
             </div>
             <p class="pic-src">Photo by <a
@@ -22,34 +27,51 @@
         </div>
         <div class="right">
             <div class="top-text">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vero porro sit molestiae
-                    delectus
-                    facilis. Molestiae sint impedit nobis numquam atque ratione iusto, animi reiciendis dolorum,
-                    voluptas
-                    assumenda quae quas.</h3>
-                <h3>Some text here!</h3>
+                <h3>Ready to gear up like a true warrior?</h3>
+                <p>Visit JOOR today and experience the ultimate in
+                    military-inspired fashion. Don't miss out on our limited-time offers - shop now and embrace the
+                    spirit of adventure!</p>
+                <h3>Gear Up for Action with Top-Quality Military Clothing!</h3>
             </div>
             <div class="signup-form">
-                <h3>Join now!</h3>
+                <h3>Start your journey!</h3>
                 <div class="form-fields">
                     <form action="#" method="post">
-                        <label for="first_name">First Name:</label>
-                        <input type="text" id="first_name">
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" id="last_name">
-                        <label for="email">E-Mail:</label>
-                        <input type="email" id="email">
-                        <label for="phone_number">Phone Number:</label>
-                        <input type="tel" id="phone_number">
-                        <label for="pwd">Password:</label>
-                        <input type="password" id="pwd">
-                        <label for="pwd-confim">Confirm Password:</label>
-                        <input type="password" id="pwd-confim">
-                    </form>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="email">E-Mail</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="tel" id="phone_number" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="pwd">Password</label>
+                                <input type="password" id="pwd" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="pwd-confim">Confirm Password</label>
+                                <input type="password" id="pwd-confim" required>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="bottom">
                 <button>Create Account</button>
+                </form>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
