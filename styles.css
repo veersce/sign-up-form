@@ -22,7 +22,7 @@ body {
 .back-shadow {
     display: flex;
     background: rgba(245, 245, 245, 0.15);
-    margin-top: 250px;
+    margin-top: 300px;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -31,7 +31,6 @@ body {
     font-size: 1.25rem;
     font-family: 'Gajraj One';
     letter-spacing: 4px;
-
 }
 
 .logo {
@@ -57,11 +56,10 @@ body {
 }
 
 .top-text {
-    padding: 0px 20% 0px 5%;
-    margin-top: 10px;
+    padding: 50px 20% 0px 5%;
     text-align: left;
     font-weight: 600;
-    flex-basis: 200px;
+    flex-basis: 250px;
     flex-shrink: 0;
 }
 
@@ -101,6 +99,7 @@ button {
     background-color: #B81B0F;
     box-shadow: 0 0 4px grey;
     color: white;
+    font-weight: 600;
 }
 
 .form-fields {
